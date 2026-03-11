@@ -1,0 +1,30 @@
+{
+  "feature_columns": [
+    "a1_score", "a2_score", "a3_score", "a4_score", "a5_score",
+    "a6_score", "a7_score", "a8_score", "a9_score", "a10_score",
+    "age", "gender", "ethnicity", "jaundice", "autism",
+    "country_of_res", "used_app_before", "result", "age_desc", "relation"
+  ],
+  "fields": [
+    {"name": "a1_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a2_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a3_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a4_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a5_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a6_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a7_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a8_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a9_score",  "type": "int",      "min": 0, "max": 1},
+    {"name": "a10_score", "type": "int",      "min": 0, "max": 1},
+    {"name": "age",       "type": "float",    "min": 1, "max": 18},
+    {"name": "gender",    "type": "category", "options": ["m", "f"]},
+    {"name": "ethnicity", "type": "category", "options": ["White-European","Asian","Middle Eastern","Black","South Asian","Hispanic","Latino","Others"]},
+    {"name": "jaundice",  "type": "category", "options": ["yes", "no"]},
+    {"name": "autism",    "type": "category", "options": ["yes", "no"]},
+    {"name": "country_of_res",  "type": "category", "options": ["United States","United Kingdom","India","Australia","New Zealand","Canada","Others"]},
+    {"name": "used_app_before", "type": "category", "options": ["yes", "no"]},
+    {"name": "result",    "type": "float",    "min": 0, "max": 10},
+    {"name": "age_desc",  "type": "category", "options": ["4-11 years"]},
+    {"name": "relation",  "type": "category", "options": ["Parent","Self","Relative","Health care professional","Others"]}
+  ]
+}
